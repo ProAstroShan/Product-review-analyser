@@ -7,8 +7,7 @@ from matplotlib import pyplot as plt
 
 # Placing file into a usable table
 try:
-    with open("redmi6.csv.xls", "r", encoding="latin-1") as f:
-        csv_data = pd.read_csv(f)
+    csv_data = pd.read_excel("redmi6_clean.xlsx")
 except FileNotFoundError as e:
     print(e)
 else:
