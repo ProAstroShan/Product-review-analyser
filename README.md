@@ -20,8 +20,9 @@ This project uses review data and extracts customer ratings and usefulness infor
 - Creates 3 plots and saves them as a PNG file
   - One plot uses alpha transparency to show density of rating usefulness patterns
 
+## Room for improvement
+- A potentially simpler formula could be used, that achieves the same purpose
+
 ## Usage instructions
 - Install Python
-- Install required libraries:
-  pandas, numpy, math, collections, matplotlib
-- Run the main script found in the 'Program' section
+- Run the main script called product_reviewer.py
